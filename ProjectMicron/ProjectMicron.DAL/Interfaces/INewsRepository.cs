@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using ProjectMicron.Domain.Entity;
 
 namespace ProjectMicron.DAL.Interfaces
 {
-    interface INewsRepository
+
+    public interface INewsRepository : IBaseRepository<NewsRobot>
     {
+        Task<NewsRobot> GetName(string title);
     }
+
 }
+
