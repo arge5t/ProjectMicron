@@ -2,7 +2,286 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="wrapper">
+
+    @await Html.PartialAsync("SliderPartial")
+
+</div>
+
+
+
+<div id="image" class="popup">
+    <div class="popup__body">
+        <div class="popup__content popup__content-image">
+            <a href="#header" class="registration__popup-close close-popup">
+                <img src="img/close.svg" alt="" class="popup__close-img">
+            </a>
+            <div class="popup__image">
+                <img src="img/robot.png" alt="" class="slider__box-img popup-img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="login" class="popup">
+    <div class="popup__body registration__popup-body">
+        <div class="popup__content registration__popup-content">
+            <a href="#header" class="registration__popup-close close-popup">
+                <img src="img/close.svg" alt="" class="popup__close-img">
+            </a>
+
+            <h1 class="registration__title">Вход</h1>
+            <form action="" class="registration__list">
+                <input placeholder="Адресс электронной почты" type="text" class="login__input registration__input">
+                <input placeholder="Введите  пароль" type="password" class="login__input registration__input">
+                <button class="slider__box-btn main-button">Войти</button>
+
+            </form>
+            <a href="" class="login__link link-password">Забыли пароль?</a>
+            <a href="" class="login__link">Помощь</a>
+            <a href="#regist" class="login__link popup-link">Зарегистрироваться</a>
+        </div>
+    </div>
+</div>
+
+<div id="regist" class="popup">
+
+    <div class="popup__body registration__popup-body">
+        <div class="popup__content registration__popup-content">
+            <a href="#header" class="registration__popup-close close-popup">
+                <img src="img/close.svg" alt="" class="popup__close-img">
+            </a>
+            <h1 class="registration__title">Регистрация</h1>
+            <form action="" class="registration__list">
+                <input placeholder="Введите Фамилию" type="text" class="registration__input">
+                <input placeholder="Введите Имя" type="text" class="registration__input">
+                <input placeholder="Адресс электронной почты" type="text" class="registration__input">
+                <input placeholder="Придумайте пароль" type="password" class="registration__input">
+                <input placeholder="Nick name" type="text" class="registration__input">
+                <div class="registration__deta">
+                    <div class="registration__deta-item">
+                        <p class="registration__floor-title">Выберете пол:</p>
+                        <input class="registration__floor-item" tabindex="5" checked type="radio" name="gender"
+                               value="male">Мужской
+
+                        <input class="registration__floor-item" tabindex="5" type="radio" name="gender"
+                               value="female">Женский
+                    </div>
+                    <div class="registration__deta-item">
+                        <h4 class="registration__deta-title">Дата рожденя</h4>
+                        <p class="registration__deta-text">число</p>
+                        <select name="numbers">
+                            <option selected value="ONE">1</option>
+                            <option value="TWO">2</option>
+                            <option value="THREE">3</option>
+                            <option value="FOUR">4</option>
+                            <option value="FIVE">5</option>
+                            <option value="SIX">6</option>
+                            <option value="SEVEN">7</option>
+                            <option value="EIGHT">8</option>
+                            <option value="NINE">9</option>
+                            <option value="TEN">10</option>
+                            <option value="ELEVEN">11</option>
+                            <option value="TWELVE">12</option>
+                            <option value="THIRTEEN">13</option>
+                            <option value="FOURTEEN">14</option>
+                            <option value="FIFTEEN">15</option>
+                            <option value="SIXTEEN">16</option>
+                            <option value="SEVENTEEN">17</option>
+                            <option value="EIGHTEEN">18</option>
+                            <option value="NINETEEN">19</option>
+                            <option value="TWENTY">20</option>
+                            <option value="TWENTY ONE">21</option>
+                            <option value="TWENTY TWO">22</option>
+                            <option value="TWENTY THREE">23</option>
+                            <option value="TWENTY FOUR">24</option>
+                            <option value="TWENTY FIVE">25</option>
+                            <option value="TWENTY SIX">26</option>
+                            <option value="TWENTY SEVEN">27</option>
+                            <option value="TWENTY EIGHT">28</option>
+                            <option value="TWENTY NINE">29</option>
+                            <option value="THIRTY">30</option>
+                            <option value="THIRTY ONE">31</option>
+                        </select>
+                    </div>
+                    <div class="registration__deta-item">
+                        <p class="registration__deta-text">месяц</p>
+                        <select name="months">
+                            <option selected="" value="1">январь</option>
+                            <option value="2">февраль</option>
+                            <option value="3">март</option>
+                            <option value="4">апрель</option>
+                            <option value="5">май</option>
+                            <option value="6">июнь</option>
+                            <option value="7">июль</option>
+                            <option value="8">август</option>
+                            <option value="9">сентябрь</option>
+                            <option value="10">октябрь</option>
+                            <option value="11">ноябрь</option>
+                            <option value="12">декабрь</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="slider__box-btn main-button">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<section class="training">
+    <div class="container">
+        <div class="training__box">
+            <div class="trainig__images">
+                <div class="trainig__images-block">
+                    <img src="img/1.jpeg" alt="" class="trainig__img">
+                </div>
+                <div class="trainig__images-block">
+                    <img src="img/2.jpeg" alt="" class="trainig__img">
+                </div>
+                <div class="trainig__images-block">
+                    <img src="img/3.jpeg" alt="" class="trainig__img">
+                </div>
+                <div class="trainig__images-block">
+                    <img src="img/3.jpeg" alt="" class="trainig__img">
+                </div>
+            </div>
+            <div class="trainig__info">
+                <h4 class="training__title">программа обучения</h4>
+                <p class="training__text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, iste porro!
+                    Impedit, nam, numquam vitae iste minus quia dolore accusantium magni, provident ad enim? Laborum
+                    expedita deserunt fuga hic perferendis!.
+                </p>
+                <p class="training__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, consectetur exercitationem id
+                    incidunt, suscipit sit nesciunt quas ipsam unde facilis quisquam debitis molestiae eos neque
+                    voluptates, at maiores sed ducimus.
+                    Totam dolorum reiciendis veniam culpa tenetur? Tempore perferendis accusantium sequi suscipit nemo.
+                    Quaerat, sit officia culpa esse, debitis fugit veritatis et similique nostrum quos fuga consectetur
+                    molestias quae impedit dolorum!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!--
+<section class="compile">
+    <div class="container">
+
+        <div class="compile__inner">
+            <h2 class="compile__title">ИЗ ЧЕГО СОСТОИТ РОБОТОТЕХНИКА</h2>
+            <div class="compile__link-box">
+                <a href="" class="compile__link compile__link-l1">
+                    <img src="img/elec.svg" alt="" class="compile__link-img">
+                    ЭЛЕКТРОТЕХНИКА
+                </a>
+            </div>
+            <div class="compile__link-box">
+
+                <a href="" class="compile__link compile__link-r1">
+                    <img src="img/programming.svg" alt="" class="compile__link-img">
+                    ПРОГРАММИРОВАНИЕ
+                </a>
+            </div>
+
+
+
+            <div class="d__model"></div>
+            <div class="compile__link-box">
+                <a href="" class="compile__link compile__link-r2">
+                    <img src="img/modeling.svg" alt="" class="compile__link-img">
+                    МОДЕЛИРОВАНИЕ
+                </a>
+            </div>
+            <div class="compile__link-box">
+                <a href="" class="compile__link compile__link-l2">
+                    <img src="img/meh.svg" alt="" class="compile__link-img">
+                    МЕХАНИКА
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+-->
+<section class="offer">
+    <div class="container">
+        <p class="offer__info">Первое занятие</p>
+        <h5 class="offer__text">ЗАПИСЬ НА ПРОБНОЕ ЗАНЯТИЕ</h5>
+        <a href="" class="offer__button ">Записаться на занятние</a>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h3 class="skills__title">Ты научишься</h3>
+        <div class="skills__inner">
+
+            <div class="skills__block">
+                <p class="skills__block-title">Обучение языку C++ и Arduino</p>
+                <p class="skills__block-info">
+                    Будешь знать основы языка С++, работа с сетью, многопоточность,Основы
+                    ООП , SOLID, разрабатывать действия микро контроллеров
+                    на Arduino
+                </p>
+            </div>
+            <div class="skills__block">
+                <p class="skills__block-title">Создавать собственные модели на Blender</p>
+                <p class="skills__block-info">Освоение молелирования ,работа с редактором и 3D принтером</p>
+            </div>
+            <div class="skills__block">
+                <p class="skills__block-title">Знания в области электроники</p>
+                <p class="skills__block-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolores
+                    veritatis nobis esse hic assumenda nihil aperiam deserunt. Error eligendi eius consequuntur
+                    officiis possimus maxime assumenda laboriosam repellendus dolores nostrum.
+                </p>
+            </div>
+            <div class="skills__block">
+                <p class="skills__block-title">Соберем твоего первого робота </p>
+                <p class="skills__block-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+                    aliquam tempora. Quae, nulla quis? Cupiditate delectus id reiciendis? Pariatur ab repudiandae
+                    asperiores reiciendis, veritatis eius nam. Dolorem soluta eligendi saepe..
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="teachers">
+    <div class="container">
+        <h5 class="teachers__title">Наши учителя</h5>
+        <div class="teacher__inner">
+
+            <div class="teachers__item">
+                <img src="img/дуднес.png" alt="" class="teachers__img">
+                <a href="#" class="teacher__item-name">Anonymous</a>
+                <p class="teacher__item-info">Middle</p>
+            </div>
+            <div class="teachers__item">
+                <img src="img/я.jpg" alt="" class="teachers__img">
+                <a href="#" class="teacher__item-name">Шевлиев Денис Велибегович</a>
+                <p class="teacher__item-info">С++/С# разработчик</p>
+            </div>
+            <div class="teachers__item">
+                <img src="img/Самир.jpg" alt="" class="teachers__img">
+                <a href="#" class="teacher__item-name">Мирзабеков Самир Набиевич</a>
+                <p class="teacher__item-info">С++/Java разработчик</p>
+            </div>
+            <button class="teacher__button">Показать еще</button>
+        </div>
+
+
+    </div>
+</section>
+<div class="map">
+    <div class="container">
+        <h3 class="map__title">Мы находимся здесь</h3>
+    </div>
+    <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac0f729715404c260fcb0e26820900cda739b48f52a83468de9b0809e4bd00295&amp;width=100%25&amp;height=493&amp;lang=ru_RU&amp;scroll=true">
+    </script>
 </div>

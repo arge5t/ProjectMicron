@@ -1,0 +1,17 @@
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.Service.deps.json
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.Service.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ref\ProjectMicron.Service.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.Service.pdb
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.DAL.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.Domain.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.DAL.pdb
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\bin\Debug\net5.0\ProjectMicron.Domain.pdb
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.csproj.AssemblyReference.cache
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.AssemblyInfoInputs.cache
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.AssemblyInfo.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.csproj.CoreCompileInputs.cache
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.csproj.CopyComplete
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ref\ProjectMicron.Service.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Service\obj\Debug\net5.0\ProjectMicron.Service.pdb

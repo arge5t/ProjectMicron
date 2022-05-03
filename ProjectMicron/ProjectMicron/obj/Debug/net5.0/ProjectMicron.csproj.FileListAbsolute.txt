@@ -79,3 +79,14 @@ F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\bin\Debug\net5
 F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\bin\Debug\net5.0\ProjectMicron.Domain.pdb
 F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\bin\Debug\net5.0\Humanizer.dll
 F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\bin\Debug\net5.0\ProjectMicron.Service.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\bin\Debug\net5.0\ProjectMicron.Service.pdb
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\NewsRobot\GetNew.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\NewsRobot\GetNews.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\NewsRobot\Save.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\Shared\CssPartial.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\Shared\HeaderPartial.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\Shared\MetatagsPartial.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\Shared\SliderPartial.cshtml.g.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron\obj\Debug\net5.0\Razor\Views\Shared\FooterPartial.cshtml.g.cs
