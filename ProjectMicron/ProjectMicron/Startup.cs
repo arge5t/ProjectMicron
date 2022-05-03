@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using ProjectMicron.DAL.Interfaces;
 using ProjectMicron.DAL.Repositories;
 using ProjectMicron.Service.Interfaces;
+using ProjectMicron.Service.Emplementation;
 
 namespace ProjectMicron
 {
@@ -37,7 +38,7 @@ namespace ProjectMicron
                 .AddDefaultTokenProviders();
 
             services.AddScoped<INewsRepository, NewsRepository>();
-            services.AddScoped<INewsService>
+            services.AddScoped<INewsService, NewsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

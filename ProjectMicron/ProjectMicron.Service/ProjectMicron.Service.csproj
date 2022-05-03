@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectMicron.DAL\ProjectMicron.DAL.csproj" />
+    <ProjectReference Include="..\ProjectMicron.Domain\ProjectMicron.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

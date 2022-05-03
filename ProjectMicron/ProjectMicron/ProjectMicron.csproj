@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectMicron.DAL\ProjectMicron.DAL.csproj" />
+    <ProjectReference Include="..\ProjectMicron.Service\ProjectMicron.Service.csproj" />
   </ItemGroup>
 
 </Project>
