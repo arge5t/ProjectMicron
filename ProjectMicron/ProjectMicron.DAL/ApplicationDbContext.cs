@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ProjectMicron.Domain.Entity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+
 
 namespace ProjectMicron.DAL
 {
-    class ApplicationDbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+        public DbSet<NewsRobot> NewsRobot { get; set; }
+
+        public DbSet<Comment> Comments { get; set; }
     }
 }

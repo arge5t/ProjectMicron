@@ -1,0 +1,12 @@
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\bin\Debug\net5.0\ProjectMicron.Domain.deps.json
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\bin\Debug\net5.0\ProjectMicron.Domain.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\bin\Debug\net5.0\ref\ProjectMicron.Domain.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\bin\Debug\net5.0\ProjectMicron.Domain.pdb
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.csproj.AssemblyReference.cache
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.AssemblyInfoInputs.cache
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.AssemblyInfo.cs
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.csproj.CoreCompileInputs.cache
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ref\ProjectMicron.Domain.dll
+F:\MICRON\ProjectMicron\ProjectMicron\ProjectMicron\ProjectMicron.Domain\obj\Debug\net5.0\ProjectMicron.Domain.pdb
